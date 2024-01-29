@@ -1,0 +1,144 @@
+.page2 {
+  width: 31em;
+  height: 722px;
+  margin-top: 30px;
+  margin-right: 33px;
+  margin-bottom: 20px;
+  box-shadow: inset 20px 0px 20px 0px #000;
+  border-radius: 12px 0px 0px 22px;
+  position: absolute;
+  left: 476px;
+  transition: 1.5s;
+  perspective: 900px;
+  transform-origin: 0% 0%;
+  transform-style: preserve-3d;
+  perspective-origin: 0px;
+  z-index: 15;
+  background-color: #E1E1F6;
+  background-size: 14px 14px;
+  background-image: repeating-linear-gradient(0deg, #ffffff, #444cf7 0.7px, #e5e5f7 0.7px, #e5e5f7);
+  border-left: 3px solid whitesmoke;
+}
+.page2 .head-1 {
+  margin: 22px;
+}
+.page2 .head-1 p {
+  padding: 27px;
+  line-height: 1.1;
+  color: #000000;
+  font-size: 25px;
+  text-align: justify;
+  margin: 0;
+  text-decoration: none;
+  font-family: "Petit Formal Script", cursive;
+}
+.page2 .head-1 .chapitre {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  font-family: "Petit Formal Script", cursive;
+}
+.page2 .head-1 .chapitre .ribbon {
+  padding-left: 53px;
+  position: absolute;
+  top: 379px;
+}
+.page2 .head-1 .chapitre .ribbon-F {
+  padding-left: 53px;
+  position: absolute;
+  top: 438px;
+}
+.page2 .head-1 .chapitre .ribbon-Ci {
+  padding-left: 53px;
+  position: absolute;
+  top: 496px;
+}
+.page2 .head-1 .chapitre .ribbon-P {
+  padding-left: 53px;
+  position: absolute;
+  top: 563px;
+}
+.page2 .head-1 .chapitre .ribbon-Co {
+  padding-left: 53px;
+  position: absolute;
+  top: 620px;
+}
+.page2 .head-1 .chapitre .ribbon-background {
+  position: absolute;
+  top: 12px;
+  right: 0;
+  font-size: 14px;
+  color: #cccccc;
+}
+.page2 .head-1 .chapitre .ribbon-background a {
+  color: #000000;
+  text-decoration: none;
+  font-weight: normal;
+  font-size: 15px;
+}
+.page2 .head-1 .chapitre .theribbon {
+  position: absolute;
+  right: -49px;
+  width: 39px;
+  font-size: 1.5em;
+  font-weight: bold;
+  padding: 32px 20px 6px 71px;
+  margin: 30px 10px 10px -71px;
+  color: #ffdf60;
+  background-image: radial-gradient(circle 588px at 31.7% 40.2%, rgb(225, 200, 239) 21.4%, rgb(163, 225, 233) 57.1%);
+  text-shadow: 0px 1px 2px #bbb;
+  box-shadow: 0px 2px 4px #888;
+}
+.page2 .head-1 .chapitre .theribbon:before,
+.page2 .head-1 .chapitre .theribbon:after {
+  content: " ";
+  position: absolute;
+  width: 0;
+  height: 0;
+  transform: rotateY(196deg);
+}
+.page2 .head-1 .chapitre .theribbon:after {
+  right: 0px;
+  top: 100%;
+  border-width: 5px 10px;
+  border-style: solid;
+  border-color: #b3408c #b3408c transparent transparent;
+}
+.page2 .head-1 .chapitre a {
+  text-decoration: underline;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+  margin-bottom: 12px;
+  font-size: 10px;
+  box-shadow: inset 1 1 2 bisque;
+}
+.page2 .back-1 {
+  transform: rotateY(180deg);
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  position: relative;
+}
+.page2 .back-1 .red .pince {
+  position: absolute;
+  top: -394px;
+  left: -131px;
+  z-index: 1;
+  width: 760px;
+}
+.page2 .back-1 .red .cadre {
+  width: 241px;
+  height: 274px;
+  border-radius: 0px;
+  position: absolute;
+  top: 9px;
+  right: 153px;
+  box-shadow: 0px 18px 20px 0px black;
+}
+.page2 .back-1 .red .boy-draw {
+  position: absolute;
+  filter: drop-shadow(2px 4px 6px black);
+  z-index: 1;
+  left: -96px;
+  top: 0;
+  width: 686px;
+}/*# sourceMappingURL=page2.css.map */

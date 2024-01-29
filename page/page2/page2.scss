@@ -1,0 +1,175 @@
+.page2 {
+  width: 33em;
+  height: 722px;
+  margin-top: 30px;
+  margin-right: 33px;
+  margin-bottom: 20px;
+  box-shadow: inset 20px 0px 20px 0px #000;
+  border-radius: 12px 0px 0px 22px;
+  position: absolute;
+  left: 476px;
+  transition: 1.5s;
+  perspective: 900px;
+  transform-origin: 0% 0%;
+  transform-style: preserve-3d;
+  perspective-origin: 0px;
+  z-index: 15;
+  background-color: #e5e5f7;
+  background-size: 14px 14px;
+  background-image: repeating-linear-gradient(
+    0deg,
+    #ffffff,
+    #444cf7 0.7000000000000001px,
+    #e5e5f7 0.7000000000000001px,
+    #e5e5f7
+  );
+  border-left: 3px solid whitesmoke;
+
+  .head-1{
+   text-align: center;
+  .description{
+      padding: 27px;
+      line-height: 1.1;
+      color: #000000;
+      font-size: 25px;
+      text-align: justify;
+      margin: 0;
+      text-decoration: none;
+      font-family: 'Petit Formal Script', cursive;
+    
+    }
+
+    //   POUR LES Différents ,liens
+
+    .chapitre {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      font-family: 'Petit Formal Script', cursive;
+
+      // pour les différents rubbants ,chacun deux est définit par un acronyme
+      .ribbon {
+        padding-left: 53px;
+        position: absolute;
+        top: 379px;
+      }
+      .ribbon-F {
+        padding-left: 53px;
+        position: absolute;
+        top: 438px;
+      }
+      .ribbon-Ci {
+        padding-left: 53px;
+        position: absolute;
+        top: 496px;
+      }
+
+      .ribbon-P {
+        padding-left: 53px;
+        position: absolute;
+        top: 563px;
+      }
+      .ribbon-Co {
+        padding-left: 53px;
+        position: absolute;
+        top: 620px;
+      }
+      .ribbon-background {
+        position: absolute;
+        top: 12px;
+        right: 0;
+        font-size: 14px;
+        color: #cccccc;
+      }
+      .ribbon-background a {
+        color: #000000;
+        text-decoration: none;
+        font-weight: normal;
+        font-size: 15px;
+      }
+
+      .theribbon {
+        position: absolute;
+        right: -49px;
+        width: 39px;
+        font-size: 1.5em;
+        font-weight: bold;
+        padding: 32px 20px 6px 71px;
+        margin: 30px 10px 10px -71px;
+        color: #ffdf60;
+        background-image: radial-gradient( circle 588px at 31.7% 40.2%,  rgba(225,200,239,1) 21.4%, rgba(163,225,233,1) 57.1% );
+        text-shadow: 0px 1px 2px #bbb;
+        box-shadow: 0px 2px 4px #888;
+      }
+      .theribbon:before,
+      .theribbon:after {
+        content: ' ';
+        position: absolute;
+        width: 0;
+        height: 0;
+        transform: rotateY(196deg);
+      }
+      .theribbon:after {
+        right: 0px;
+        top: 100%;
+        border-width: 5px 10px;
+        border-style: solid;
+        border-color: #b3408c #b3408c transparent transparent;
+      }
+      //  pour les diférents lien ,mais le hover , ne marche pas
+
+      a {
+        text-decoration: underline;
+        text-transform: uppercase;
+        color: rgb(255, 255, 255);
+        margin-bottom: 12px;
+        font-size: 10px;
+      
+        box-shadow: inset 1 1 2 bisque;
+      }
+
+   
+    }
+  }
+
+
+  .back-1{
+    transform: rotateY(180deg);
+    backface-visibility: hidden;
+    position: relative;
+   
+    .red{
+       .pince{
+        position: absolute;
+        top: -394px;
+        left: -131px;
+        z-index: 1;
+        width: 760px;
+
+       }
+       .cadre{
+        width: 241px;
+        height: 274px;
+        border-radius: 0px;
+        position: absolute;
+        top: 9px;
+        right: 153px;
+        box-shadow: 0px 18px 20px 0px black;
+    }
+
+    .boy-draw{
+      position: absolute;
+      filter: drop-shadow(2px 4px 6px black);
+      z-index: 1;
+      left: -96px;
+      top: 0;
+    width: 686px;
+    }
+
+    
+    
+           
+       
+    }
+  }
+}

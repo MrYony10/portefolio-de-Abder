@@ -1,0 +1,55 @@
+
+ 
+  
+    .page1 {
+      
+      background-color: #E1E1F6;
+      background-size: contain;
+      width: 33em;
+      height: 722px;
+      margin-top: 30px;
+      margin-left: 33px;
+      margin-bottom: 20px;
+      margin-right: 0px;
+      border: 0px 2px;
+      box-shadow: inset -14px 0px 35px -5px rgba(0,0,0,0.1);
+    	border-radius: 0 15px 15px 0;
+      position: absolute;
+      top: -2px;
+      left: 446px;
+      z-index: 100;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      transition-duration: 1s;
+      transform-origin: 0% 0%;
+      transform-style: preserve-3d;
+      perspective-origin: 0px;
+      font-family: 'Petit Formal Script', cursive;
+       .head{
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+          .titre{
+            font-size: 30px;
+          }
+          .img_Al{
+            width: 250px;
+            border-radius: 50%;
+   
+
+
+          }
+
+
+       }
+
+      
+        .back{
+          background-color: black;
+          
+        }
+      
+      }
+ 

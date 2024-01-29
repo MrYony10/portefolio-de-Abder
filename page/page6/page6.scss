@@ -1,0 +1,19 @@
+.page6 {
+    background-color: rgb(161, 0, 0);
+    width: 31em;
+    height: 722px;
+    margin-top: 30px;
+    margin-right: 33px;
+    margin-bottom: 20px;
+    box-shadow: inset 20px 0px 20px 0px #000;
+    position: absolute;
+    z-index: -5;
+    left: 476px;
+    border-radius: 12px 0px 0px 22px;
+    transition: 1.5s;
+    perspective: 900px;
+    transform-origin: 0% 0%;
+    transform-style: preserve-3d;
+    perspective-origin: 0px;
+    border-left: 3px solid whitesmoke;
+  }

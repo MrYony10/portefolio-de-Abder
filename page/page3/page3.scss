@@ -1,0 +1,95 @@
+.page3 {
+  background-color: #e5e5f7;
+  background-size: 14px 14px;
+  background-image: repeating-linear-gradient(
+    0deg,
+    #ffffff,
+    #444cf7 0.7000000000000001px,
+    #e5e5f7 0.7000000000000001px,
+    #e5e5f7
+  );
+  width: 32em;
+  height: 722px;
+  margin-top: 30px;
+  margin-right: 33px;
+  margin-bottom: 20px;
+  box-shadow: inset 20px 0px 20px 0px #000;
+  position: absolute;
+  z-index: 2;
+  left: 476px;
+  border-radius: 12px 0px 0px 22px;
+  transition: 1.5s;
+  perspective: 900px;
+  transform-origin: 0% 0%;
+  transform-style: preserve-3d;
+  perspective-origin: 0px;
+  border-left: 3px solid whitesmoke;
+  font-family: 'Petit Formal Script', cursive;
+    
+}
+
+.head-2 {
+  fieldset {
+    border: 0px solid black;
+    legend {
+      text-align: center;
+      font-size: 30px;
+    }
+
+    .allskills {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      flex-wrap: wrap;
+      justify-content: space-around;
+
+      button {
+        box-shadow: inset 0px 0px 15px 3px #eaeaea;
+        background-color: white;
+        border-radius: 17px;
+        border: 1px solid #1f2f47;
+        display: inline-block;
+        cursor: pointer;
+        color: #ffffff;
+        font-family: Arial;
+        font-size: 15px;
+        padding: 6px 13px;
+        text-decoration: none;
+        text-shadow: 0px 1px 0px #263666;
+      }
+
+      .p-right {
+        color: white;
+        text-align: center;
+        font-size: 25px;
+        text-transform: capitalize;
+        font-family: 'Hurricane', cursive;
+        margin: 0;
+      }
+    }
+
+    }
+
+    .down-road{
+      display: flex;
+      flex-direction: column;
+      img{
+        width: 100px;
+        height: 100px;
+      }
+    }
+
+
+
+
+}
+
+.back-2 {
+  img.homme {
+    position: absolute;
+    top: 13px;
+    right: 38px;
+    filter: drop-shadow(2px 4px 6px black);
+  }
+}
+  
