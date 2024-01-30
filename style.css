@@ -5,6 +5,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  zoom:50%;
 }
 body #button1 {
   border-radius: 50%;
@@ -64,4 +65,41 @@ body #container {
   }
 }
 
+
+/* responsive*/
+@media screen   and (max-width: 2000px) {
+
+body{
+  font-size: 2em; /* Set the font size to be smaller when */
+ background-color: rgb(255, 255, 255);
+ display:contents;
+
+ width: 900px !important;
+
+ 
+}
+#container{
+  box-shadow: none!important;
+  width: 100%!important;
+
+  height: auto!important;
+  display: flex!important;
+  flex-direction: column!important;
+  margin: auto!important;
+
+}
+#button1,#button2{
+  display: none;
+}
+.page1,.page2,.page3,.page4,.page5,.page6,.page7{
+  position:inherit !important;
+  left:  inherit !important;
+  top :inherit !important;
+  right: inherit !important;
+  bottom: inherit !important;
+  margin:50px !important;
+  width: 100% !important;
+  height: 1000px!important;
+}
+}
 /*# sourceMappingURL=style.css.map */
