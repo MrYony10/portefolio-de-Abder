@@ -32,13 +32,9 @@
   padding: 6px;
 }
 .forming{
-  border-left: 9px dotted #e5e5f7;
-  border-bottom: 9px dotted #000;
-  perspective: 1848px;
- 
   background: white;
   box-shadow: inset 1px 0px 6px 4px #000,inset -6px -4px 12px 0px #000;;
-  margin: 4px;
+  margin: 20px;
   padding: 5px;
 
    h1{
@@ -50,61 +46,12 @@
      font-size: 20px;
    }
 }
-.forming::before{
-  content: "";
-  width: 93px;
-  height: 35px;
- 
-  position: absolute;
-  top: 186px;
-  right: 5px;
-  box-shadow: 6px 14px 11px 1px #000;
-}
 
 
    
 }
 
-.konexio::before{
-  background-image: url(../../img/konexio-logo_1.png);
 
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-color: black;
-  background-position: center;
-
-  p{
-    font-size: 20px;
-  }
-}
-
-.G2R::before{
-  background-image: url(../../img/logoG2R-2.png);
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-color: #fafafa;
-  background-position: center;
-  box-shadow: 7px 2px 8px 2px black;
-  position: absolute;
-  top: 1px;
-}
-
-.forming::after{
-  content: "";
-  width: 437px;
-  height: 15px;
-  background-color: #444cf7;
-  position: absolute;
-  top: -12px;
-  border-radius: 0px 12px 12px 0px;
-  box-shadow: inset 2px 4px 9px 4px black;
-  position: absolute;
-  top: 1px;
-  
-
-
-
-}
 
 
 
